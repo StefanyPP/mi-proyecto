@@ -64,10 +64,7 @@ body{
     line-height: 1.2;
     text-align: justify;
     font-family:'Roboto', sans-serif;
-
-
 }
-
 
 p{
   margin-top: 20px;
@@ -101,6 +98,7 @@ h2{
 }
 
 #nombre{
+    font-weight: bold;
     background-color: #af599e;
     text-align: center;
 }
@@ -108,6 +106,13 @@ h2{
 
 .contactos{
     color: #0f0f0f;
+}
+
+#inicio{
+    text-align: center;
+    margin-bottom: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #hablemos{
@@ -125,14 +130,6 @@ h2{
     margin-bottom: 20%;
     margin-left: 20px;
     margin-right: 20px;
-    
-}
-
-#inicio{
-    text-align: center;
-    margin-bottom: 20%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 #logonombre{
@@ -197,8 +194,9 @@ section{
 }
 
 #cont{
+    margin-top: 0;
+    margin-bottom: 0;
     width: 70%;
     max-width: 200px;
-
 }
 
