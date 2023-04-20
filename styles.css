@@ -195,19 +195,38 @@ footer{
 }
 
 .flex-container{
+    min-height: 100vh;
     display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    /*display: flex;
     background-color:#fbfbfb;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;*/
 }
 
-.item{
+#img1{
+    width:100% ;
+    max-width: 100px;
+}
+
+#img2{
+    width: 100%;
+    max-width: 100px;
+}
+
+#img3{
+    width: 100%;
+    max-width: 100px;
+}
+
+/*.item{
     background-color: #fbfbfb;
     width: 50%;
     max-width: 400px;
 }
 
-/*#cont{
+#cont{
     margin-top: 0;
     margin-bottom: 0;
     width: 70%;
