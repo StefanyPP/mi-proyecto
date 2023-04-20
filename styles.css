@@ -61,6 +61,7 @@ body{
     font-size: 18px;
     line-height: 1.2;
     text-align: justify;
+    /*font-family:*/
 
 }
 
@@ -78,7 +79,6 @@ h2{
     font-size: 28px;
     text-align: center;
 }
-
 
 .cv{
     font-size: 20px;
@@ -177,6 +177,9 @@ section{
 #cont{
     width: 100%;
     max-width: 300px;
+}
+.iconos{
+    justify-content: space-between;
 }
 
 
