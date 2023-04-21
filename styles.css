@@ -135,6 +135,9 @@ h2{
     font-weight: bold;
     background-color: #af599e;
     text-align: center;
+    border-color: #af599e;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #inicio , #hablemos , #sobremi{
@@ -176,7 +179,7 @@ article{
 
 .dos{
     background-color:  rgba(175, 89, 158, 0.3);
-    border-radius: 60px;
+    border-radius: 100px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 20%;
@@ -195,14 +198,11 @@ footer{
 }
 
 .flex-container{
-    min-height: 100vh;
+    margin-top: 50px;
     display: flex;
     flex-direction:row ;
     justify-content: space-around;
-    /*display: flex;
     background-color:#fbfbfb;
-    flex-direction: row;
-    justify-content: space-between;*/
 }
 
 #img1{
@@ -219,17 +219,3 @@ footer{
     width: 100%;
     max-width: 100px;
 }
-
-/*.item{
-    background-color: #fbfbfb;
-    width: 50%;
-    max-width: 400px;
-}
-
-#cont{
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 70%;
-    max-width: 200px;
-}
-
